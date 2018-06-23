@@ -17,7 +17,9 @@
 
 ## Installation
 
-### Direct `<script />` include. The library will be exposed as a global `Leactive` variable
+### Direct `<script />` include
+
+The library will be exposed as a global `Leactive` variable
 
 ```html
 <script src="https://cdn.jsdelivr.net/npm/@leactive/core@latest"></script>
