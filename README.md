@@ -11,10 +11,23 @@
 > Dead simple and extremely fast state manager | [github.com/leactive/core](https://github.com/leactive/core#readme)
 
 - [Installation](#installation)
+- [How It Works](#how-it-works)
 - [Questions](#questions)
 - [License](#license)
 
 ## Installation
+
+### Direct `<script />` include. The library will be exposed as a global `Leactive` variable
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/@leactive/core@latest"></script>
+```
+
+**or** via unpkg
+
+```html
+<script src="https://unpkg.com/@leactive/core@latest"></script>
+```
 
 ### NPM
 
@@ -27,6 +40,10 @@ npm install @leactive/core --save
 ```bash
 yarn add @leactive/core
 ```
+
+## How It Works
+
+Leactive is reactive, so the store reacts when you change the state. When you create store instance via `createStore(options)` the library walks through each `options.state` property and observes it with getters/setters. If the value of the property is an object, Leactive observes this object too. Also if at runtime you assign an object to some of state properties Leactive will also observe it. You can be familliar with this behavior if you have experience in Vue.js
 
 ## Questions
 
