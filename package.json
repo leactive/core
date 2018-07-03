@@ -1,7 +1,7 @@
 {
   "name": "@leactive/core",
   "version": "0.1.0",
-  "description": "Dead simple and extremely fast state manager",
+  "description": "Dead simple and extremely fast state manager for javascript",
   "main": "cjs/index.js",
   "module": "es/index.js",
   "types": "typescript/index.d.ts",
@@ -37,7 +37,8 @@
     "manager",
     "simple",
     "fast",
-    "reactive"
+    "reactive",
+    "async"
   ],
   "author": {
     "name": "Eduard Troshin",
