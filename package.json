@@ -1,6 +1,6 @@
 {
   "name": "@leactive/core",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Dead simple and extremely fast state manager for javascript",
   "main": "cjs/index.js",
   "module": "es/index.js",
